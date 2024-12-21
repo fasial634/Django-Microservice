@@ -1,0 +1,3 @@
+**/venv
+microservice/**/__pycache__/
+**/db.sqlite3

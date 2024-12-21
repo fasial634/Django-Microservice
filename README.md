@@ -1,4 +1,4 @@
-# Microservice For AI Solution
+# Microservice for AI Solution
 ## Overview
 This microservice is designed to provide AI-driven solutions for AI and NLP solution. It is built using Django framework. 
 

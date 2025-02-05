@@ -38,5 +38,9 @@ cd nginx/
 sudo docker build -t nginx-proxy . 
 sudo docker run -d  --name nginx_container  --network django_network  -v django-static:/app/static  -p 80:80  nginx-proxy
 ```
+## Testing 
+```bash
+curl -X POST http://143.198.194.252:8000/api/predict/ -H "Content-Type: application/json" -d '{"text": "This is a great product!"}'
+```
 
 
